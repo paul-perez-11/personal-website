@@ -486,3 +486,17 @@ article h3:hover
 {
     height:2.5rem;
 }
+
+/* Footer */
+footer
+{
+    height:26vh;
+    margin:0.1rem;
+}
+
+footer p
+{
+    font-weight: 200;
+    font-size: x-small;
+    text-align: center;
+}
