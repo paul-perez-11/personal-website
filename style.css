@@ -200,6 +200,22 @@ section
     gap: 1.5rem;
 }
 
+.text-container
+{
+    border:rgb(163,163,163) 0.1rem solid;
+    border-radius:1.5rem;
+    padding: 0.75rem;
+    margin-right:1rem;
+}
+
+.text-container p
+{
+    color:black;
+    font-weight: 200px;
+    line-height: 115%;
+    text-align: justify;
+}
+
 /* Icons */
 .icon
 {
@@ -228,6 +244,7 @@ section
 .btn 
 {
     font-weight: 600;
+    font-size: large;
     transition: all 300ms ease;
     padding:1rem;
     width:8rem;
@@ -417,6 +434,24 @@ article h3:hover
     border-color: rgb(163,163,163);
     background:rgb(250,250,250);
 }
+
+.color-container li
+{
+    font-weight: 100;
+    font-size: larger;
+    margin:0.5rem 2rem;
+    color:black;
+    text-align: left;
+}
+
+.color-container strong
+{
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-underline-offset: 0.01rem;
+}
+
 
 .project-image
 {
