@@ -27,6 +27,7 @@ nav
     justify-content: space-around;
     align-items: center;
     height: 17vh;
+    background-color:#eeeeee;
 }
 
 .nav-links
@@ -59,7 +60,10 @@ a:hover
 .logo:hover{cursor: default;}
 
 /* Hamburger Menu */
-#hamburger-nav{display: none;}
+#hamburger-nav
+{
+    display: none; 
+    background-color:#eeeeee}
 
 .hamburger-menu
 {
@@ -528,6 +532,7 @@ footer
 {
     height:20vh;
     margin:0.1rem;
+    background-color:#eeeeee
 }
 
 footer p
