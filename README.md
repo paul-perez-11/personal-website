@@ -1,5 +1,9 @@
 # My Personal Website
-- Contains all my projects and publications
+
+https://paul-perez-website.netlify.app/
+
+- Contains all my projects
 - GitHub repos are linked
+- Live demos are provided
 - Made with standard HTML, CSS, and Javascript
 - Hosted on Netlify
