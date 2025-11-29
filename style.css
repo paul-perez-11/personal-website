@@ -8,9 +8,17 @@
 
 body
 {
-    font-family: 'Franklin Gothic Medium', 
-    'Arial Narrow', Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
 }
+
+h1, h2, .logo, nav
+{
+    font-family: 'Futura LT', sans-serif;
+}
+
+h2{font-style: italic;}
+
 
 html {scroll-behavior: smooth;}
 
@@ -56,8 +64,8 @@ a:hover
     cursor: pointer;
 }
 
-.logo{font-size: 2.5rem;}
-.logo:hover{cursor: default;}
+.logo{font-size: 2.5rem;font-weight: bold;}
+.logo a:hover{cursor: pointer;background-color: #eeeeee;}
 
 /* Hamburger Menu */
 #hamburger-nav
@@ -441,7 +449,7 @@ article h3:hover
 
 .color-container li
 {
-    font-weight: 100;
+    font-weight: 300;
     font-size: larger;
     margin:0.5rem 2rem;
     color:black;
@@ -495,6 +503,7 @@ article h3:hover
     justify-content: center;
     flex-direction: column;
     height:70h;
+    margin-top:3rem;
 }
 .contact-info-upper-container
 {
