@@ -419,14 +419,7 @@ article
     
 }
 
-article h3{transition:all 450ms ease-in-out;}
 
-article h3:hover
-{
-    text-decoration: underline;
-    cursor:pointer;
-    transform:translateY(-1rem) scale(1.30);
-}
 
 .static-icon
 {
